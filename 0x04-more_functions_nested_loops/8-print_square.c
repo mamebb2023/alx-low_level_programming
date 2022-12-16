@@ -2,7 +2,7 @@
 
 /**
  * print_square - print nxn of square
- * @n - the numbers
+ * @size - the numbers
  */
 
 void print_square(int size)
