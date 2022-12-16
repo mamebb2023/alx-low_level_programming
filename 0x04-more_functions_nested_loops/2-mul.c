@@ -3,7 +3,7 @@
 /**
  * mul - Multiplies two intigers
  * @a: first intiger
- * #b: second intiger
+ * @b: second intiger
  *
  * Return: the results
  */
