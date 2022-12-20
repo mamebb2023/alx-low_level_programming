@@ -3,6 +3,8 @@
 /**
  * _atoi - Prints only numbers form a string
  * @s: the string
+ *
+ * Return: the number
  */
 
 int _atoi(char *s)
