@@ -4,7 +4,7 @@
  * the_prime - Checkes the number if prime
  * @a: the number
  * @b: the checker number
- * 
+ *
  * Return: the result
  */
 
