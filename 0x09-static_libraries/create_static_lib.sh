@@ -1,2 +1,3 @@
 #!/bin/bash
-ar rc libutil.a *.c
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+ar -rc liball.a *.o
