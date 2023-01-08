@@ -2,8 +2,8 @@
 
 /**
  * main - Prints the number of argument
- * @argc - the number of the arguments
- * @argv - pointer to char
+ * @argc: the number of the arguments
+ * @argv: pointer to char
  *
  * Return: 0
  */
