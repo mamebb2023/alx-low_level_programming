@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Multiplies the two arguments
@@ -10,15 +11,13 @@
 
 int main(int argc, char **argv)
 {
-	int i;
-
-	if (argc = 3)
+	if (argc != 3)
 	{
-		for (i = 0; i < argc; i++)
-			printf("%d\n", argv[1] * argv[2]);
+		printf("Error\n");
+		return (1);
 	}
-	else
-		print("Error\n");
+
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 
 	return (0);
 }
