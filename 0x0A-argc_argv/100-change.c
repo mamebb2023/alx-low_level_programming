@@ -5,7 +5,7 @@
  * main - Prints the minimum number of coins to
  *        make change for an amount of money.
  * @argc: The number of arguments
- * @argv: An array of pointers 
+ * @argv: An array of pointers
  *
  * Return: 0 if true, 1 if fail
  */
