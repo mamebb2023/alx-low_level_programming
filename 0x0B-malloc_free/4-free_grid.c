@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_grid - Frees previously allocated 
+ * free_grid - Frees previously allocated
  * 2 dimentional grid
  * @grid: the grid
  * @height: the height of the grid
