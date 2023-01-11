@@ -3,7 +3,7 @@
 
 /**
  * isspace - Splits a string in to two
- * @str: the string
+ * @c: the string
  *
  * Return: the splitted string
  */
@@ -20,8 +20,7 @@ int _isspace(int c)
  * strtow - split a string into words
  * @str: a pointer to the string to split
  *
- * Return: NULL if memory allocation fails or if str is NULL or empty (""),
- * otherwise return a pointer to the array of words terminated by a NULL
+ * Return: the strings or null
  */
 char **strtow(char *str)
 {
