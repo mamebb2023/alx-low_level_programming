@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * strtow - Splits a string in to two
+ * isspace - Splits a string in to two
  * @str: the string
  *
  * Return: the splitted string
