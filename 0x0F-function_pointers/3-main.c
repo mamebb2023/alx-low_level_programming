@@ -1,11 +1,11 @@
-#include "2-calc.h"
+#include "3-calc.h"
 
 /**
  * main - Calculates two integers
  * @argc: number of arguments
  * @argv: the array of arguments
  *
- * Retrun: the result of the operation
+ * Return: the result of the operation
  */
 
 int main(int argc, char *argv[])
