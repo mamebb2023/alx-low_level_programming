@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the file it is copiled from
- * 
+ *
  * Return: 0
  */
 
