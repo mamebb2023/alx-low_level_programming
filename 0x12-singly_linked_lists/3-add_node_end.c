@@ -2,7 +2,7 @@
 
 /**
  * add_node_end - Add a new node at the end of the list
- * @haad: the head of the list
+ * @head: the head of the list
  * @str: the string to be added
  *
  * Return: the address of the new added element
