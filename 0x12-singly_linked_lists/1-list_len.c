@@ -15,7 +15,7 @@ size_t list_len(const list_t *h)
 	temp = h;
 	i = 0;
 
-	while(temp != NULL)
+	while (temp != NULL)
 	{
 		temp = temp->next;
 		i++;
