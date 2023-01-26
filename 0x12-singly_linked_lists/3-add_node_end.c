@@ -8,7 +8,7 @@
  * Return: the address of the new added element
  */
 
-list_t *add_node_end(list_h **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	unsigned int i;
 	list_h *node, *temp;
