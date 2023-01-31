@@ -3,7 +3,7 @@
 /**
  * delete_nodeint_at_index - Deletes node at index idx
  * @head: the head of the list
- * @idx: the index of the element
+ * @index: the index of the element
  *
  * Return: 1 if success or -1 if fali
  */
