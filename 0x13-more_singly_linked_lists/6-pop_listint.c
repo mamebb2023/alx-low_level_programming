@@ -3,22 +3,23 @@
 /**
  * pop_listint - Deletes the head of the list
  * @head: the head of the file
- * 
- * Return: s the head node’s data (n)
+ *
+ * Return: the head node’s data (n)
  */
 
 int pop_listint(listint_t **head)
 {
-	unsigned int value;
-	listint_t *node;
+	listint_t *tmp;
+	int ret;
 
 	if (*head == NULL)
 		return (0);
 
-	node = *head;
-	value = node->n;
-	*head = node->next;
-	free(node);
+	tmp = *head;
+	ret = (*head)->n;
+	*head = (*head)->next;
 
-	return (value);
+	free(tmp);
+
+	return (ret);
 }
