@@ -9,10 +9,13 @@
 
 size_t listint_len(const listint_t *h)
 {
-	unsigned int i = 0;
-	const listint_t  *temp = h;
+	size_t i = 0;
 
-	for (; temp; temp = temp->next)
+	while (h)
+	{
 		i++;
-        return (i);
+		h = h->next;
+	}
+
+	return (i);
 }
