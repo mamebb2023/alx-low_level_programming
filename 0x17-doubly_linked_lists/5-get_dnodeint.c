@@ -4,7 +4,7 @@
  * get_dnodeint_at_index - Gets the nth node of a list
  * @head: the head
  * @index: the index
- * 
+ *
  * Return: The node at index
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
