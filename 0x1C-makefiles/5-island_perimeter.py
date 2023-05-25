@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """ A python fiel """
 
+
 def island_perimeter(grid):
     """ Returns the parameter of the island
 
     Args:
-        grid (list): a lists of lists of integers.
+        grid (list): a lists of lists of integers
     """
     width = len(grid[0])
     height = len(grid)
