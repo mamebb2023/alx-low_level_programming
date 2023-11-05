@@ -4,6 +4,7 @@
  * *_strncpy - Copies a string
  * @dest: the destination
  * @src: the source
+ * @n: then number of int to copy
  *
  * Return: the copied dest
  */
